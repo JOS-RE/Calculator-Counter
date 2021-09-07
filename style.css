@@ -1,7 +1,104 @@
+html {
+    display: -ms-grid;
+    display: grid;
+    min-height: 100%;
+}
+
+body {
+    display: -ms-grid;
+    display: grid;
+    background: #E0C9CB;
+    font-family: "Lato", sans-serif, sans-serif;
+    text-transform: uppercase;
+}
+
 .container {
+    align-items: center;
     text-align: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 780px;
+    height: 600px;
+    background: #F5F5F5;
+    -webkit-box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+    box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+    border-radius: 10px;
 }
 
 table {
     margin: auto;
+    margin-top: 30px;
+    height: 450px;
+    width: 550px;
+    box-shadow: black;
+}
+
+.button-num {
+    background: #F7959D;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -1px;
+    width: 8rem;
+    height: 5rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F5F5F5;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.button-num:hover {
+    background: #ff9fa7;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.button-ops {
+    background: #ff92c5;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -1px;
+    width: 8rem;
+    height: 5rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F5F5F5;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.button-ops:hover {
+    background: #f573b0;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.button-eql {
+    background: #ff9077;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -1px;
+    width: 8rem;
+    height: 5rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F5F5F5;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.button-eql:hover {
+    background: #ffcc24;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
