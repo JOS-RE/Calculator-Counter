@@ -1,3 +1,3 @@
 # developer days submission 
 
-Week 1
+> Project link : [Click here](https://jos-re.github.io/Calculator-Counter/)
