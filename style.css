@@ -19,7 +19,7 @@ body {
     margin: auto;
     overflow: hidden;
     width: 780px;
-    height: 600px;
+    height: 620px;
     background: #F5F5F5;
     -webkit-box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
     box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
@@ -28,10 +28,28 @@ body {
 
 table {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
     height: 450px;
     width: 550px;
     box-shadow: black;
+}
+
+input {
+    width: 33rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b88e04;
+    padding: 10px;
+}
+
+.heading {
+    color: #4E4E4E;
+    margin-top: -5px;
+    font-family: Neucha;
 }
 
 .button-num {
@@ -49,6 +67,7 @@ table {
     color: #F5F5F5;
     cursor: pointer;
     font-size: xx-large;
+    box-shadow: 5px 5px 15px rgba(233, 181, 181, 0.5);
 }
 
 .button-num:hover {
@@ -72,6 +91,7 @@ table {
     color: #F5F5F5;
     cursor: pointer;
     font-size: x-large;
+    box-shadow: 5px 5px 15px rgba(255, 212, 212, 0.5);
 }
 
 .button-ops:hover {
