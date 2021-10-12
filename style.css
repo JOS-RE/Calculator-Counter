@@ -7,7 +7,7 @@ html {
 body {
     display: -ms-grid;
     display: grid;
-    background: #E0C9CB;
+    background: #231278;
     font-family: "Lato", sans-serif, sans-serif;
     text-transform: uppercase;
 }
@@ -20,7 +20,7 @@ body {
     overflow: hidden;
     width: 780px;
     height: 620px;
-    background: #F5F5F5;
+    background: #804419;
     -webkit-box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
     box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
     border-radius: 10px;
